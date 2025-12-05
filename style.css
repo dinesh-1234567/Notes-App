@@ -1,0 +1,63 @@
+body{
+    margin:0;
+    background:linear-gradient(to left,#f6b26f,#b0a9e3);
+    font-family:cursive;
+}
+.heading{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top:10px;
+    font-size: 40px;
+}
+.para{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+.app{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,300px);
+    gap:40px;
+    justify-content: center;
+    padding:50px;
+
+}
+.note{
+    padding: 17px;
+    border-radius: 15px;
+    resize: none;
+    box-shadow: 0 0 3px rgba(0,0,0,0.3);
+    height:200px;
+    font-size:18px;
+    border:none;
+    outline: none;
+    background: white;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+
+}
+.note::placeholder{
+    color:gray;
+    opacity: 0.5;
+}
+.note:hover,
+.note:focus{
+    box-shadow: 0 0  10px black;
+    background: rgb(4, 228, 240);
+}
+.btn{
+    height:200px;
+    border: none;
+    border-radius: 12%;
+    font-size: 70px;
+    color: blue;
+    cursor: pointer;
+    background-color: yellow;
+    transition: all 0.3s ease;
+
+}
+.btn:hover{
+    transform: scale(1.1);
+    background-color: red;
+    color: aliceblue;
+}
