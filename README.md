@@ -21,5 +21,3 @@ Friendly Notes App is a lightweight and user-friendly web application that allow
 | **Local Storage** | Save notes in browser |
 
 ---
-
-## 📂 Project Structure
